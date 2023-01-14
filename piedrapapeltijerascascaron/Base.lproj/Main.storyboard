@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="piedrapapeltijerascascaron" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vs" translatesAutoresizingMaskIntoConstraints="NO" id="FuD-Ff-ams">
+                                <rect key="frame" x="311" y="72" width="240" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="3dS-Na-plY"/>
+                                    <constraint firstAttribute="width" constant="240" id="shY-mT-sPJ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="wEI-Gh-j38">
+                                <rect key="frame" x="680" y="31" width="90" height="328"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSU-Qj-uYM">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="99.333333333333329"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="H6O-Lh-Imq"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Piedra"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJG-vp-17J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nag-0k-i93">
+                                        <rect key="frame" x="0.0" y="114.33333333333334" width="90" height="99.333333333333343"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="f9z-k2-YZv"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Papel"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFx-TF-14G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzu-Ru-oaw">
+                                        <rect key="frame" x="0.0" y="228.66666666666671" width="90" height="99.333333333333343"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="fy3-VB-vuH"/>
+                                            <constraint firstAttribute="width" constant="90" id="jwr-cK-OkK"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Tijeras"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nGs-MX-qvf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="F7A-0L-ItN"/>
+                                    <constraint firstAttribute="height" constant="328" id="OcN-fF-Brk"/>
+                                    <constraint firstAttribute="width" constant="90" id="PSg-Hq-1tp"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="328" id="luV-p5-qCx"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yZZ-jS-MAu">
+                                <rect key="frame" x="120" y="31" width="90" height="328"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="PiedraJugador" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFz-dV-mgf">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="99.333333333333329"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="PAh-Sa-FhX"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Piedra"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tks-TK-4AE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqc-mI-Jqm">
+                                        <rect key="frame" x="0.0" y="114.33333333333334" width="90" height="99.333333333333343"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="5RD-wh-uu1"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ppael"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoz-4R-jH5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FK-u5-HNI">
+                                        <rect key="frame" x="0.0" y="228.66666666666671" width="90" height="99.333333333333343"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99.329999999999998" id="Bvx-ZS-YgK"/>
+                                            <constraint firstAttribute="width" constant="90" id="Q9v-be-g6f"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Tijeras"/>
+                                        <connections>
+                                            <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Qi-pn-MNS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="328" id="N8J-07-VZ8"/>
+                                    <constraint firstAttribute="width" constant="90" id="ad1-Jq-8ZI"/>
+                                    <constraint firstAttribute="height" constant="328" id="bSv-20-Sxp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="FuD-Ff-ams" firstAttribute="leading" secondItem="yZZ-jS-MAu" secondAttribute="trailing" constant="101" id="5Gc-zS-c8W"/>
+                            <constraint firstAttribute="bottom" secondItem="yZZ-jS-MAu" secondAttribute="bottom" constant="31" id="7a7-Px-CZW"/>
+                            <constraint firstItem="wEI-Gh-j38" firstAttribute="leading" secondItem="FuD-Ff-ams" secondAttribute="trailing" constant="129" id="JdW-Tm-e7B"/>
+                            <constraint firstItem="yZZ-jS-MAu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="31" id="LLo-0r-qNx"/>
+                            <constraint firstItem="yZZ-jS-MAu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="RaU-aT-I4l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wEI-Gh-j38" secondAttribute="trailing" constant="74" id="aP1-gP-4cc"/>
+                            <constraint firstItem="FuD-Ff-ams" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="cau-Pq-Gba"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FuD-Ff-ams" secondAttribute="bottom" constant="28" id="hdi-JX-rac"/>
+                            <constraint firstAttribute="bottom" secondItem="wEI-Gh-j38" secondAttribute="bottom" constant="31" id="tAy-Pl-He0"/>
+                            <constraint firstItem="wEI-Gh-j38" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="31" id="yPe-Aq-axr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PapelJugador" destination="Bqc-mI-Jqm" id="8sf-rL-bW9"/>
+                        <outlet property="PapelPc" destination="nag-0k-i93" id="h0T-xj-w9o"/>
+                        <outlet property="PiedraJugador" destination="sFz-dV-mgf" id="i3h-E3-pnb"/>
+                        <outlet property="PiedraPc" destination="bSU-Qj-uYM" id="HIO-lR-yUI"/>
+                        <outlet property="TijerasJugador" destination="8FK-u5-HNI" id="ONR-u9-AHQ"/>
+                        <outlet property="TijerasPc" destination="tzu-Ru-oaw" id="q77-ye-vdo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167" y="-186"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vs" width="256" height="256"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
